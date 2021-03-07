@@ -106,7 +106,7 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
+    agentRadius: 0.4
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.4
@@ -114,13 +114,13 @@ NavMeshSettings:
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.13333334
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: bc1734e2eda2091458db43b9b25a296b, type: 2}
 --- !u!1001 &7993626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -191,9 +191,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1308764083}
     m_Modifications:
+    - target: {fileID: 1000010056762816, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1000010720145162, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
       propertyPath: m_Name
       value: UNIConcrete_wall_v1_W_3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010720145162, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012954073910, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4000010940606070, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
       propertyPath: m_RootOrder
@@ -258,6 +270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hangar_v3_basic
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013395745738, guid: d8185c26d9422ab41a0e3507aaab9abe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010828360526, guid: d8185c26d9422ab41a0e3507aaab9abe, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -320,6 +336,10 @@ PrefabInstance:
     - target: {fileID: 1000010959013678, guid: f5c94d7d7f024eb43b7dd5258c0608d0, type: 3}
       propertyPath: m_Name
       value: Concrete_fence_v1_wall_set_v1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010959013678, guid: f5c94d7d7f024eb43b7dd5258c0608d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000013316604322, guid: f5c94d7d7f024eb43b7dd5258c0608d0, type: 3}
       propertyPath: m_RootOrder
@@ -447,6 +467,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Concrete_fence_v1_wall_set_v1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010959013678, guid: f5c94d7d7f024eb43b7dd5258c0608d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013316604322, guid: f5c94d7d7f024eb43b7dd5258c0608d0, type: 3}
       propertyPath: m_RootOrder
       value: 53
@@ -509,6 +533,10 @@ PrefabInstance:
     - target: {fileID: 1000010628347772, guid: 46132fa6877a42947bf1f7f15c09f435, type: 3}
       propertyPath: m_Name
       value: Generator_v1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010628347772, guid: 46132fa6877a42947bf1f7f15c09f435, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4000012999968834, guid: 46132fa6877a42947bf1f7f15c09f435, type: 3}
       propertyPath: m_RootOrder
@@ -636,6 +664,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hangar_v3_basic (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013395745738, guid: d8185c26d9422ab41a0e3507aaab9abe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010828360526, guid: d8185c26d9422ab41a0e3507aaab9abe, type: 3}
       propertyPath: m_RootOrder
       value: 41
@@ -762,6 +794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hangar_v1_full (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013721592950, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013703715314, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -824,6 +860,10 @@ PrefabInstance:
     - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_Name
       value: Hangar_v4 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_RootOrder
@@ -951,6 +991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hangar_v2_basic (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010228094746, guid: 231f567299ef5844f8dca0461bf7a80b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012589328442, guid: 231f567299ef5844f8dca0461bf7a80b, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -1014,6 +1058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hangar_v2_basic (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010228094746, guid: 231f567299ef5844f8dca0461bf7a80b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012589328442, guid: 231f567299ef5844f8dca0461bf7a80b, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1076,6 +1124,10 @@ PrefabInstance:
     - target: {fileID: 1000010192389154, guid: 39485138b2c1f4d41bdd3846e259ffea, type: 3}
       propertyPath: m_Name
       value: Oil_tank_v2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010192389154, guid: 39485138b2c1f4d41bdd3846e259ffea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000010507042020, guid: 39485138b2c1f4d41bdd3846e259ffea, type: 3}
       propertyPath: m_RootOrder
@@ -1325,9 +1377,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1308764083}
     m_Modifications:
+    - target: {fileID: 1000010056762816, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1000010720145162, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
       propertyPath: m_Name
       value: UNIConcrete_wall_v1_W_3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010720145162, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012954073910, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000010940606070, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
       propertyPath: m_RootOrder
@@ -1611,6 +1675,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hangar_v1_full (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013721592950, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013703715314, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -1673,6 +1741,10 @@ PrefabInstance:
     - target: {fileID: 1000013721592950, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
       propertyPath: m_Name
       value: Hangar_v1_full (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013721592950, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4000013703715314, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
       propertyPath: m_RootOrder
@@ -1817,7 +1889,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e2829e56de83c2d4d91be73fdb13ec5c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: 0.353
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2829e56de83c2d4d91be73fdb13ec5c,
         type: 3}
@@ -2310,6 +2382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hangar_v4 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -2501,9 +2577,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1308764083}
     m_Modifications:
+    - target: {fileID: 1000010491514970, guid: 9a8a037e5343199458bcacb9d8803837, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011254384922, guid: 9a8a037e5343199458bcacb9d8803837, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012491009290, guid: 9a8a037e5343199458bcacb9d8803837, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1000013012713382, guid: 9a8a037e5343199458bcacb9d8803837, type: 3}
       propertyPath: m_Name
       value: Hangar_v3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013012713382, guid: 9a8a037e5343199458bcacb9d8803837, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4000012067424442, guid: 9a8a037e5343199458bcacb9d8803837, type: 3}
       propertyPath: m_RootOrder
@@ -2701,9 +2793,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2020401636}
     m_Modifications:
+    - target: {fileID: 530279513, guid: 9615d776614809e4890301d5377aeb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2067834869, guid: 9615d776614809e4890301d5377aeb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1000013479777962, guid: 9615d776614809e4890301d5377aeb9f, type: 3}
       propertyPath: m_Name
       value: Cargo_container_v1_LD1through
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013479777962, guid: 9615d776614809e4890301d5377aeb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000011758990698, guid: 9615d776614809e4890301d5377aeb9f, type: 3}
       propertyPath: m_RootOrder
@@ -3079,9 +3183,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1308764083}
     m_Modifications:
+    - target: {fileID: 1000010056762816, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1000010720145162, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
       propertyPath: m_Name
       value: UNIConcrete_wall_v1_W_3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010720145162, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012954073910, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4000010940606070, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
       propertyPath: m_RootOrder
@@ -3281,6 +3397,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hangar_v1_full (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013721592950, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013703715314, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
       propertyPath: m_RootOrder
       value: 47
@@ -3470,6 +3590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Industrial_pipe_v1
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012270689622, guid: ef77372ba45b400439d547071a884266, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011050751358, guid: ef77372ba45b400439d547071a884266, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -3603,6 +3727,10 @@ PrefabInstance:
     - target: {fileID: 1000013395745738, guid: d8185c26d9422ab41a0e3507aaab9abe, type: 3}
       propertyPath: m_Name
       value: Hangar_v3_basic (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013395745738, guid: d8185c26d9422ab41a0e3507aaab9abe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000010828360526, guid: d8185c26d9422ab41a0e3507aaab9abe, type: 3}
       propertyPath: m_RootOrder
@@ -3919,6 +4047,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Concrete_fence_v1_wall_set_v1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010959013678, guid: f5c94d7d7f024eb43b7dd5258c0608d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013316604322, guid: f5c94d7d7f024eb43b7dd5258c0608d0, type: 3}
       propertyPath: m_RootOrder
       value: 58
@@ -4044,6 +4176,10 @@ PrefabInstance:
     - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_Name
       value: Hangar_v4 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_RootOrder
@@ -4171,6 +4307,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hangar_v4 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -4233,6 +4373,10 @@ PrefabInstance:
     - target: {fileID: 1000010959013678, guid: f5c94d7d7f024eb43b7dd5258c0608d0, type: 3}
       propertyPath: m_Name
       value: Concrete_fence_v1_wall_set_v1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010959013678, guid: f5c94d7d7f024eb43b7dd5258c0608d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000013316604322, guid: f5c94d7d7f024eb43b7dd5258c0608d0, type: 3}
       propertyPath: m_RootOrder
@@ -4303,6 +4447,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hangar_v3_basic (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013395745738, guid: d8185c26d9422ab41a0e3507aaab9abe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010828360526, guid: d8185c26d9422ab41a0e3507aaab9abe, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -4371,6 +4519,10 @@ PrefabInstance:
     - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_Name
       value: Hangar_v4 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_RootOrder
@@ -4590,6 +4742,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hangar_v4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -4653,13 +4809,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u6575\u65B9"
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00020005534
+      objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.043689054
+      objectReference: {fileID: 0}
+    - target: {fileID: 400042, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0002000515
+      objectReference: {fileID: 0}
+    - target: {fileID: 400042, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.043689054
+      objectReference: {fileID: 0}
     - target: {fileID: 400060, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400060, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -31.148798
+      value: -16.41
       objectReference: {fileID: 0}
     - target: {fileID: 400060, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4697,6 +4869,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e44562addadc38e4cba0d7d000da1903, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
 --- !u!1 &1067603730 stripped
@@ -4732,6 +4908,42 @@ CapsuleCollider:
   m_Height: 2.2
   m_Direction: 1
   m_Center: {x: 0, y: 1.1, z: 0}
+--- !u!195 &1067603733
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067603730}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.4
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.6
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1067603736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067603730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50896edf9a4d54348a3a96a6dc485584, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2.9
+  rangeAttack: 5
 --- !u!1001 &1072535951
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4742,6 +4954,10 @@ PrefabInstance:
     - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_Name
       value: Hangar_v4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_RootOrder
@@ -5184,6 +5400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Generator_v1
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010628347772, guid: 46132fa6877a42947bf1f7f15c09f435, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012999968834, guid: 46132fa6877a42947bf1f7f15c09f435, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -5246,6 +5466,10 @@ PrefabInstance:
     - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_Name
       value: Hangar_v4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_RootOrder
@@ -5495,9 +5719,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1308764083}
     m_Modifications:
+    - target: {fileID: 1000010056762816, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1000010720145162, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
       propertyPath: m_Name
       value: UNIConcrete_wall_v1_W_3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010720145162, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012954073910, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000010940606070, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
       propertyPath: m_RootOrder
@@ -5561,6 +5797,10 @@ PrefabInstance:
     - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_Name
       value: Hangar_v4 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_RootOrder
@@ -5809,6 +6049,10 @@ PrefabInstance:
     - target: {fileID: 1000013721592950, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
       propertyPath: m_Name
       value: Hangar_v1_full (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013721592950, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000013703715314, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
       propertyPath: m_RootOrder
@@ -6290,6 +6534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hangar_v1_full (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013721592950, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013703715314, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -6416,6 +6664,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UNIConcrete_wall_v1_W_end_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012799356138, guid: c3bbd9f38e0f2744a9cd075aabf8c52d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011929494458, guid: c3bbd9f38e0f2744a9cd075aabf8c52d, type: 3}
       propertyPath: m_RootOrder
       value: 82
@@ -6472,6 +6724,10 @@ PrefabInstance:
     - target: {fileID: 1000013531074198, guid: 88ff00979f9abfc40b8bd0cfc885d175, type: 3}
       propertyPath: m_Name
       value: UNIConcrete_wall_v1_S_single
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013531074198, guid: 88ff00979f9abfc40b8bd0cfc885d175, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4000010565855796, guid: 88ff00979f9abfc40b8bd0cfc885d175, type: 3}
       propertyPath: m_RootOrder
@@ -6542,6 +6798,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Concrete_fence_v1_s1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011737549872, guid: 8270a6a93cde92045a7d335d31b2ece4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010496400642, guid: 8270a6a93cde92045a7d335d31b2ece4, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -6604,6 +6864,10 @@ PrefabInstance:
     - target: {fileID: 1000010959013678, guid: f5c94d7d7f024eb43b7dd5258c0608d0, type: 3}
       propertyPath: m_Name
       value: Concrete_fence_v1_wall_set_v1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010959013678, guid: f5c94d7d7f024eb43b7dd5258c0608d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000013316604322, guid: f5c94d7d7f024eb43b7dd5258c0608d0, type: 3}
       propertyPath: m_RootOrder
@@ -6730,6 +6994,10 @@ PrefabInstance:
     - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_Name
       value: Hangar_v4 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_RootOrder
@@ -7183,6 +7451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hangar_v2_basic
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010228094746, guid: 231f567299ef5844f8dca0461bf7a80b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012589328442, guid: 231f567299ef5844f8dca0461bf7a80b, type: 3}
       propertyPath: m_RootOrder
       value: 61
@@ -7308,6 +7580,10 @@ PrefabInstance:
     - target: {fileID: 1000011523426384, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_Name
       value: Cargo_container_v1_LD1close
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011523426384, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
       propertyPath: m_RootOrder
@@ -7754,7 +8030,7 @@ CapsuleCollider:
   m_Radius: 0.45
   m_Height: 2.7
   m_Direction: 1
-  m_Center: {x: 0, y: 1.35, z: 0}
+  m_Center: {x: 0, y: 1.13, z: 0}
 --- !u!82 &1648848942
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7851,6 +8127,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!135 &1648848944
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648848937}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.3
+  m_Center: {x: 0, y: 2.49, z: 0}
 --- !u!1001 &1676215967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7925,6 +8214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hangar_v3_basic (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013395745738, guid: d8185c26d9422ab41a0e3507aaab9abe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010828360526, guid: d8185c26d9422ab41a0e3507aaab9abe, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -7987,6 +8280,10 @@ PrefabInstance:
     - target: {fileID: 1000011737549872, guid: 8270a6a93cde92045a7d335d31b2ece4, type: 3}
       propertyPath: m_Name
       value: Concrete_fence_v1_s1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011737549872, guid: 8270a6a93cde92045a7d335d31b2ece4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000010496400642, guid: 8270a6a93cde92045a7d335d31b2ece4, type: 3}
       propertyPath: m_RootOrder
@@ -8051,6 +8348,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hangar_v4 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -8113,6 +8414,10 @@ PrefabInstance:
     - target: {fileID: 1000010959013678, guid: f5c94d7d7f024eb43b7dd5258c0608d0, type: 3}
       propertyPath: m_Name
       value: Concrete_fence_v1_wall_set_v1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010959013678, guid: f5c94d7d7f024eb43b7dd5258c0608d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000013316604322, guid: f5c94d7d7f024eb43b7dd5258c0608d0, type: 3}
       propertyPath: m_RootOrder
@@ -8251,9 +8556,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1308764083}
     m_Modifications:
+    - target: {fileID: 1000010056762816, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1000010720145162, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
       propertyPath: m_Name
       value: UNIConcrete_wall_v1_W_3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010720145162, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012954073910, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4000010940606070, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
       propertyPath: m_RootOrder
@@ -8308,9 +8625,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1308764083}
     m_Modifications:
+    - target: {fileID: 1000010056762816, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1000010720145162, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
       propertyPath: m_Name
       value: UNIConcrete_wall_v1_W_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010720145162, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012954073910, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4000010940606070, guid: fcbcdad4411dafb489c6994b483d02a6, type: 3}
       propertyPath: m_RootOrder
@@ -8368,6 +8697,10 @@ PrefabInstance:
     - target: {fileID: 1000013395745738, guid: d8185c26d9422ab41a0e3507aaab9abe, type: 3}
       propertyPath: m_Name
       value: Hangar_v3_basic (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013395745738, guid: d8185c26d9422ab41a0e3507aaab9abe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000010828360526, guid: d8185c26d9422ab41a0e3507aaab9abe, type: 3}
       propertyPath: m_RootOrder
@@ -8431,6 +8764,10 @@ PrefabInstance:
     - target: {fileID: 1000013721592950, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
       propertyPath: m_Name
       value: Hangar_v1_full (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013721592950, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4000013703715314, guid: 95c00f442e3cf3643b2062e8e0d0bbd6, type: 3}
       propertyPath: m_RootOrder
@@ -8557,6 +8894,10 @@ PrefabInstance:
     - target: {fileID: 1000010228094746, guid: 231f567299ef5844f8dca0461bf7a80b, type: 3}
       propertyPath: m_Name
       value: Hangar_v2_basic (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010228094746, guid: 231f567299ef5844f8dca0461bf7a80b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000012589328442, guid: 231f567299ef5844f8dca0461bf7a80b, type: 3}
       propertyPath: m_RootOrder
@@ -8839,6 +9180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palet_v1_set
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013871382564, guid: fe9a19d4f0d796c40bf4fc6b69dd7b81, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013978381734, guid: fe9a19d4f0d796c40bf4fc6b69dd7b81, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -8971,7 +9316,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2013778862
 BoxCollider:
@@ -9121,6 +9466,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hangar_v3_basic (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013395745738, guid: d8185c26d9422ab41a0e3507aaab9abe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010828360526, guid: d8185c26d9422ab41a0e3507aaab9abe, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -9183,6 +9532,10 @@ PrefabInstance:
     - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_Name
       value: Hangar_v4 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012260637608, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf, type: 3}
       propertyPath: m_RootOrder
